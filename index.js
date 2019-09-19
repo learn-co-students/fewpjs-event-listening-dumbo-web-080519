@@ -1,9 +1,10 @@
-const inputElement = document.querySelector("input")
 
-function addingEventListener(element) {
-  element.addEventListener("click", function(event){
+
+function addingEventListener() {
+  let inputElement = document.querySelector("input")
+  inputElement.addEventListener("click", function(event){
     alert("I am clicked!")
   })
 }
 
-addingEventListener(inputElement)
+addingEventListener()
